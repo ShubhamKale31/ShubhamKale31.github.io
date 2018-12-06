@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Shubham Satish Kale</title>
+ 
+	<meta name="description" content="I'm a software engineer with skills in web development and application development. I'm always on the lookout for great opportunities to grow and problems to solve.">
+	<meta name="keywords" content="Shubham Satish Kale, Software Engineer, Software Developer, Web Developer, Code, Programming">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+ 
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<link href="css/index.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+  
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
+	<link rel="shortcut icon" href="assets/favicon.ico" />
+
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			if(!window.screen.availHeight < 500 && !window.screen.availWidth < 1024)
+			{
+				$('#fullpage').fullpage({anchors:['intro', 'projects', 'experience', 'skills', 'other', 'contact'],controlArrows: true, slidesNavigation: true, menu: '#header', responsiveHeight:500, responsiveWidth: 1024, responsiveSlides: true, scrollBar: true});
+				$('#about').fadeIn(2000);
+			}
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function(){
+			Typed.new(".typed-text", {
+				strings: ["Hi there, I'm Shubham and I love to code. "],
+				typeSpeed: 25
+			});
+		});
+	</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112842412-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-112842412-1');
+	</script>
+
+	<style>
+    /* Arrows for horizontal slider */
+
+    .fp-controlArrow.fp-prev {
+      border: solid black;
+      border-width: 0 0.5em 0.5em 0;
+      display: inline-block;
+      padding: 0.5em;
+       transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+    .fp-controlArrow.fp-next {
+        border: solid black;
+      border-width: 0 0.5em 0.5em 0;
+      display: inline-block;
+      padding: 0.5em;
+       transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+			</button>
+			<a class="navbar-brand" href="#intro">Shubham</a>
+		</div>
+  	
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class = "nav navbar-nav" id="header">
+			<li data-menuanchor="projects">
+				<a href="#projects">PROJECTS</a>
+			</li>
+			<li data-menuanchor="experience">
+				<a href="#experience">EXPERIENCE</a>
+			</li>
+			<li data-menuanchor="skills">
+				<a href="#skills">SKILLS</a>
+			</li>
+			<li data-menuanchor="other">
+				<a href="#other">EXTRACURRICULARS</a>
+			</li>
+			<li data-menuanchor="contact">
+				<a href="#contact">CONTACT</a>
+			</li>
+			<li>
+			  <a href="resume.pdf" download>RESUME <i class = "fa fa-download solo" aria-hidden = "true"></i></a>
+			</li>
+		</ul>
+    </div>
+	</nav>
+
+	<div id = "fullpage">
+		<div class="section">
+			<div class = "img-responsive">               
+				<img src="assets/MyPic.jpg" style="max-width: 100%; border-radius: 50%;" id="me">
+			</div>
+			
+			<div id = "type">
+				<span class="typed-text"></span>
+				<div id="about">
+					<p>I'm a software engineer primarily skilled in Java, C# and Web development.</p>
+					<p>I'm pursuing my Master's degree in Computer Science at San Diego State University. Go Pack! </p>
+					<p>I really enjoy programming and I've worked on a bunch of projects. Also, I love open source things!</p>
+					<p>When I'm not coding, you can find me working out in gym, playing soccer or hiking a mountain.</p>
+				</div>
+			</div> 
+		</div>
+		
+		<!-- Projects -->
+		<div class = "section">
+			<div class="slide" data-anchor="slide1">
+				<h3><strong>Hotel Recommendation Web & Mobile Application</strong></h3><br/>
+				<p><i>Pretty front end web pages that connect to APIs to render data</i></p>
+				<p>Languages: Java, HTML, CSS, Bootstrap, jQuery, JavaScript, Android Programming, SQL</p><br/>
+          
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<img src="assets/webapp2.png" id="wiki_screenshot" alt="Web Application 1" title="Web Application 1">     
+						</div>
+						
+						<div class="col-md-6">
+							<img src="assets/webapp1.png" id = "random" alt="Web Application 2" title="Web Application 12">            
+						</div>
+					</div>
+					
+					<div style="text-align: center;"><a href="https://github.com/ShubhamKale31/Hotel-Recommendation"><div class="btn">The Code</div></a></div>
+				</div>
+			</div>
+      
+			<div class="slide" data-anchor="slide2">
+				<h3><strong>AETNA Website</strong></h3><br/>
+				<img src="assets/aetna.png" id="aetna" alt="AETNA" title="AETNA">
+				<p><i>Worked as a front end developer for development of AETNA website.<br/>Designed, developed dashboard and other web pages of AETNA </i></p>
+				<p>Technologies: C#, .NET framework, CSS, Jquery, Javascript, SQL Server </p>
+			</div>
+      
+			<div class="slide" data-anchor="slide3">
+				<h3><strong>Pfizer Website</strong></h3>
+				<img src="assets/pfizer.png" id="pfizer" alt="Pfizer" title="Pfizer">
+				<p><i>Handled three applications of Pfizer (PCEC, IP eForm & SPARTA) single handedly.<br/>Created stored procedures and functions in Oracle in order to implement the business logic.</i></p>
+				<p>Technologies: Java, SharePoint, CSS, Jquery, Javascript, Oracle </p>
+			</div>
+	  
+			<div class="slide" data-anchor="slide4">
+				<h3><strong>History Museum Web Application</strong></h3><br/>
+				<p><i>History Museum web application that descirbes about the exhibitions and events going to happen.</i></p>
+				<p>Languages: HTML5, CSS3, PHP ,JavaScript</p><br/>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<img src="assets/history1.png" id="wiki_screenshot" alt="History Museum Application 1" title="Web Application 1">     
+						</div>
+						<div class="col-md-6">
+							<img src="assets/history2.png" id = "random" alt="History Museum Application 2" title="Web Application 12">            
+						</div>
+						<div style="text-align: center;"><a href="https://github.com/ShubhamKale31/History-Museum-Website"><div class="btn">The Code</div></a></div>
+					</div> 
+				</div> 
+			</div> 
+			<div class="slide" data-anchor="slide5">
+				<h3><strong>Pirate Shop Web Application</strong></h3><br/>
+				<p><i>An online store to purchase DVDS and Blue-Rays </i></p>
+				<p>Technologies: PHP, HTML5, CSS </p><br/>
+				<div style="text-align: center;"><a href="https://github.com/ShubhamKale31/Pirate-Shop-Web-Application"><div class="btn">The Code</div></a></div>
+			</div>
+		</div> 
+		
+		<!-- Experience -->
+		<div class="section">
+			<div class="slide" data-anchor="slide1">
+				<img src="assets/infosys.png"/>
+				<h3 style="font-size:30px;">Software Engineer</h3>
+				<h4>August 2016 <i>to</i> June 2018</h4>
+				<h4>Pune, India</h4>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3><strong>Highlights</strong></h3>      
+							<p>Adding value to the product by delivering user stories every sprint.</p>
+							<p>Participation in grooming of stories, task breakdown and retrospectives.</p>
+						</div>
+						<div class="col-md-6">
+							<h3><strong>Takeaways</strong></h3>      
+							<p>Agile software development exposure</p>
+							<p>Enhancement of development and testing skills</p>
+						</div> 
+					</div>
+				</div>
+			</div>
+        </div> 
+			
+		<!-- Skills -->
+		<div class="section">
+			<div class="container">
+  				<div class="row">
+					<div class="col-md-3" style="text-align:center">
+  					<h3><strong>Languages</strong></h3>
+  					<div class="skills">
+						<p>C#</p>
+						<p>Java</p>
+						<p>Python</p>
+						<p>C++</p>
+					</div>
+         		</div>
+  					
+				<div class="col-md-3" style="text-align:center">
+    				<h3><strong>Web Development</strong></h3>
+    				<div class="skills">
+						<p>HTML5 | CSS3</p>
+    				    <p>JavaScript</p>
+						<p>Jquery</p>
+						<p>ASP .NET</p>
+						<p>React.js | Node.js</p>
+    				</div>
+				</div>
+  					
+				<div class="col-md-3" style="text-align:center">
+					<h3><strong>Database</strong></h3>
+  				    <div class="skills">
+						<p>Oracle</p>
+						<p>MS SQL Server</p>
+						<p>NoSQL</p>
+						<p>Cassandra</p>
+						<p>Mongo DB</p>
+  				    </div>
+				</div>
+  					
+				<div class="col-md-3" style="text-align:center">
+  				    <h3><strong>Technologies</strong></h3>
+  				    <div class="skills">
+						<p>.NET Framework</p>
+    				    <p>Azure</p>
+    				    <p>Git</p>
+						<p>REST API</p>
+						<p>Junit</p>
+						<p>AWS</p>
+    				</div>
+				</div>
+  			</div>
+  		</div>
+		<div style="overflow:auto"> </div>
+		</div>
+    
+		<!-- Extracurriculars -->
+		<div class="section">
+			<div class="slide" data-anchor="slide1" id="slide1">
+			<h2><strong>Certifications</strong></h2>          
+			<div class="container">
+				<div class="row">
+					<div style="overflow: auto">
+						<div class="col-sm-4" id="exp" >
+							<img src="assets/delhi.png" title="IIT_Delhi" class="img-responsive" id="expertiza">
+						</div>
+						<div class="col-sm-4">
+							<img src="assets/bombay.jpg" title="IIT_Bombay" class="img-responsive" id="odin">
+						</div>
+						<div class="col-sm-4">
+							<img src="assets/record.png" title="RubiksCube" class="img-responsive" id="fcc">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div style="overflow: auto">
+						<div class="col-md-4">
+							<h3>IIT Delhi</h3>
+							<p><i>Appreciation for National Network Security Championship </i></p>
+						</div>
+						<div class="col-md-4">
+							<h3>IIT Bombay</h3>        
+							<p><i>Co-ordination for Ethical Hacking Workshop  Webshiksha</i></p>
+						</div>
+						<div class="col-md-4">
+							<h3>Rubik's Cube</h3>
+							<p><i>Solved the Rubiks Cube in less than 1 minute</i></p>
+						</div>         
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="slide" data-anchor="slide2">
+				<h2><strong>Membership</strong></h2>
+				<p>Core Committee Member of Association of Computer Engineering(A.C.E)</p>
+				<i><p>Organized different cultural and technical events at SKNCOE campus</p></i>
+			</div>         
+		</div>
+		<!-- Contact -->
+		<div class="section">           
+			<p>You can get in touch with me by sending me an email or connecting via social media.</p> 
+			<p>If you have an interesting project or an opportunity, I'd love to hear more!</p>
+			<div id="contact-icons">
+				<a href="https://www.linkedin.com/in/shubhamkale31/" id="linkedin" title="LinkedIn | shubhamkale" data-toggle="tooltip" data-placement="bottom">
+					<i class="icon fa fa-linkedin solo"></i>
+				</a>         
+				<a href="https://github.com/ShubhamKale31" id="github" title="GitHub | ShubhamKale31" data-toggle="tooltip" data-placement="bottom">
+					<i class="icon fa fa-github solo"></i>
+				</a>
+				<a href="mailto:skale31@gmail.com" id="email" title="Email | skale31@gmail.com" data-toggle="tooltip" data-placement="bottom">
+					<i class = "icon fa fa-envelope solo"></i>
+				</a>
+			</div>
+		</div>
+    </div>
+    <!-- fullpage -->
+</body>
+</html>
